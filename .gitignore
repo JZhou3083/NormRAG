@@ -227,6 +227,8 @@ __marimo__/
 data/v1/erc2_set/pdf_reports/
 data/v1/erc2_set/databases/
 data/v1/erc2_set/debug_data/
+# ERC round PDFs from trustbit/enterprise-rag-challenge (~600 MB)
+data/v1/round*/pdfs/
 # Editor / OS junk
 .DS_Store
 tempCodeRunnerFile.py
