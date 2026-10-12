@@ -68,7 +68,7 @@ Intents: `lookup`, `compare`, `trend`, `qualitative`.
 
 ## Evaluation
 
-- **Gold set:** `eval/questions.yaml` holds questions with expected answers and source pages.
+- **Gold set:** `data/v0/eval/questions.jsonl` holds questions with expected answers and source pages (see `data/v0/eval/README.md`).
 - **Retrieval metrics:** recall@k and MRR against the labelled source pages.
 - **Answer metrics:** exact or tolerance-based match for numeric answers; faithfulness and citation correctness for free-text answers.
 - **Workflow:** every config is run against the full set, and results are logged per run for comparison.
@@ -85,7 +85,10 @@ normrag/
 │   ├── query/          # analyzer.py (rewriting, routing, decomposition)
 │   ├── generation/     # prompts.py, schemas.py, generator.py
 │   └── api/            # FastAPI app
-├── eval/               # questions.yaml (gold answers + pages), run_eval.py
+├── data/
+│   ├── v0/             # V0 corpus + eval/questions.jsonl (gold set)
+│   └── v1/             # ERC2 datasets for V1 improvements
+├── eval/               # run_eval.py
 ├── ui/                 # simple chat frontend (Streamlit / Gradio)
 ├── docs/
 │   └── decisions.md    # design decisions and experiment results

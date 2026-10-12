@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# NormRAG data
+# Large binary artifacts (indexes, archives)
+*.faiss
+*.zip
+# ERC2 downloads from Google Drive (see data/v1/erc2_set/README.md)
+data/v1/erc2_set/pdf_reports/
+data/v1/erc2_set/databases/
+data/v1/erc2_set/debug_data/
+# Editor / OS junk
+.DS_Store
+tempCodeRunnerFile.py
