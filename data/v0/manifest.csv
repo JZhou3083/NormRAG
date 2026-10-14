@@ -1,0 +1,11 @@
+doc_id,doc_type,company,entity,report_year,period_end,currency,pages,sha1,enabled,reviewed,notes
+BMW/BMW_Annual_Report_2021.pdf,annual_report,BMW,BMW Group,2021,2021-12-31,EUR,50,ea1bd75b2c991d791ae3c3ae54a55b6251855242,true,true,BMW Group Report 2021 (excerpt)
+BMW/BMW_Annual_Report_2022.pdf,annual_report,BMW,BMW Finance N.V.,2022,2022-12-31,EUR,54,c72aee816bb391947090fc6e5dd0a0e1dc9fc2dc,true,true,Financing subsidiary of BMW AG; not BMW Group figures; statements in EUR thousand
+BMW/BMW_Annual_Report_2023.pdf,annual_report,BMW,BMW Finance N.V.,2023,2023-12-31,EUR,55,092b3ab57fe76fdea9357c1267f4092dcb702cfb,true,true,Financing subsidiary of BMW AG; not BMW Group figures; statements in EUR thousand
+Ford/Ford_Annual_Report_2021.pdf,annual_report,Ford,Ford Motor Company,2021,2021-12-31,USD,75,101846de768591bbd90ba94e879736a2e0b5c846,true,true,Form 10-K excerpt
+Ford/Ford_Annual_Report_2022.pdf,annual_report,Ford,Ford Motor Company,2022,2022-12-31,USD,76,d94c008f7af83dd7b99335806ec0a3af659633ee,true,true,Form 10-K excerpt
+Ford/Ford_Annual_Report_2023.pdf,annual_report,Ford,Ford Motor Company,2023,2023-12-31,USD,75,efc3cb4f0ae835d2f05febef4ed8d4a9afe68de7,true,true,Form 10-K excerpt; text layer duplicated on each page; new segments (Ford Blue / Model e / Pro)
+Tesla/Tesla_Annual_Report_2022.pdf,annual_report,Tesla,"Tesla, Inc.",2022,2022-12-31,USD,62,6b3a1b211623940176ecd039243186705aabbc7a,true,true,Form 10-K excerpt; printed page = physical + 29
+Tesla/Tesla_Annual_Report_2023.pdf,annual_report,Tesla,"Tesla, Inc.",2023,2023-12-31,USD,66,d7da85a63fa07a59b52e45370167c56eec6c04da,true,true,Form 10-K excerpt; printed page = physical + 30
+news.docx,news,,,,,,,d4f2aa7246d86ac2e73d60fb12954a26fac40b52,false,true,Same content as news.pdf; DOCX support planned for V2
+news.pdf,news,,,,,,9,05e10475eacfdd477fc2e7758a4916f4c4a7900c,true,true,20 undated fictional news articles; no printed page numbers; page 8 blank

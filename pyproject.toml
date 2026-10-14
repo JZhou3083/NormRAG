@@ -1,0 +1,7 @@
+[project]
+name = "normrag"
+version = "0.1.0"
+description = "RAG for financial report queries"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
